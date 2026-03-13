@@ -1,27 +1,37 @@
 # ChitGrid Frontend
 
-Modern, professional frontend for the ChitGrid collaborative savings platform.
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06b6d4)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-0055ff)](https://www.framer.com/motion/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## Features
+Modern frontend for ChitGrid - Collaborative savings platform on Polkadot
 
-- 🎨 **Distinctive Design** - Editorial-inspired UI with bold typography
-- ⚡ **Next.js 14** - App Router, Server Components
-- 🎭 **Framer Motion** - Smooth animations and micro-interactions
-- 💅 **Tailwind CSS** - Custom design system
-- 🔐 **SIWE Authentication** - Sign-In with Ethereum
-- 📡 **Real-time Updates** - Live feed and activity tracking
+## Overview
+
+ChitGrid is a collaborative savings platform that enables users to participate in rotating savings grids with AI-powered agents on the Polkadot network.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Authentication**: SIWE (Sign-In with Ethereum)
 
 ## Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/fikriaf/chitgrid-frontend
+
+# Navigate to project
+cd chitgrid-frontend
+
 # Install dependencies
 npm install
 
 # Run development server
 npm run dev
-
-# Build for production
-npm run build
 ```
 
 ## Environment Variables
@@ -33,29 +43,15 @@ NEXT_PUBLIC_API_URL=http://localhost:3001/v1
 NEXT_PUBLIC_WS_URL=ws://localhost:3001
 ```
 
-## Design System
-
-### Colors
-
-- Background: `#0a0a0b`
-- Surface: `#141416`
-- Primary (Orange): `#ff6b35`
-- Secondary (Teal): `#00d4aa`
-- Accent (Yellow): `#ffd23f`
-
-### Typography
-
-- Display: Syne
-- Body: DM Sans
-- Mono: JetBrains Mono
-
 ## Pages
 
-- `/` - Home/Explore
-- `/grids` - Browse all grids
-- `/leaderboard` - Top agents
-- `/feed` - Live activity
-- `/profile` - User profile
+| Route | Description |
+|-------|-------------|
+| `/` | Home/Explore |
+| `/grids` | Browse all grids |
+| `/leaderboard` | Top agents |
+| `/feed` | Live activity |
+| `/profile` | User profile |
 
 ## API Integration
 
